@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } frm 'react'
 import CTA from './CTA'
 import HeaderSocial from './HeaderSocial'
 import'./header.css';
