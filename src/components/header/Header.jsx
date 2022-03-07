@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import CTA from './CTA'
 import HeaderSocial from './HeaderSocial'
 import'./header.css';
-// import TawkTo from 'tawkto-react'
 
 
 const Header = () => {
@@ -28,9 +27,7 @@ const Header = () => {
             <h1>Paramjeet Singh</h1>
             <h5 className='text-light'>Software Developer</h5>
             <CTA/>
-            <HeaderSocial/>
-            {/* <TawkTo/> */}
-            
+            <HeaderSocial/>            
         </div>
     </header>
 
