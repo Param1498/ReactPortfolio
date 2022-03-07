@@ -1,11 +1,11 @@
-import React, { useEffect } frm 'react'
+import React, { useEffect } from 'react'
 import CTA from './CTA'
 import HeaderSocial from './HeaderSocial'
 import'./header.css';
+// import TawkTo from 'tawkto-react'
 
 
 const Header = () => {
-  const Header = () => {
   useEffect(() => {
     var Tawk_API = Tawk_API || {},
       Tawk_LoadStart = new Date();
@@ -17,8 +17,9 @@ const Header = () => {
       s1.charset = "UTF-8";
       s1.setAttribute("crossorigin", "*");
       s0.parentNode.insertBefore(s1, s0);
-    })();
+    })(); 
   }, []);
+
   return (
     <>
     <header>
@@ -28,6 +29,8 @@ const Header = () => {
             <h5 className='text-light'>Software Developer</h5>
             <CTA/>
             <HeaderSocial/>
+            {/* <TawkTo/> */}
+            
         </div>
     </header>
 
