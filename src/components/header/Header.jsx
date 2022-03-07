@@ -2,6 +2,8 @@ import React from 'react'
 import CTA from './CTA'
 import HeaderSocial from './HeaderSocial'
 import'./header.css';
+import { tawkToLoadScripts } from './Tawkchat'
+
 
 const Header = () => {
   return (
@@ -13,6 +15,8 @@ const Header = () => {
             <h5 className='text-light'>Software Developer</h5>
             <CTA/>
             <HeaderSocial/>
+            <tawkToLoadScripts/>
+
         </div>
     </header>
 
